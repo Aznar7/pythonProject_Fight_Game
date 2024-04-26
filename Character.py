@@ -9,4 +9,10 @@ class character:
         self.velocidad = velocidad
 
     def createCharacter(self):
-        int(input())
+        vNombre = input("Introduce el nombre de tu personaje")
+        vRango = input("Introduce el rango de tu personaje (True o False)")
+        vPoder = int(input("Introduce el poder de tu personaje (int 1-100)"))
+        vTamano = int(input("Introduce el tamaño de tu personaje (int 1-100)"))
+        vVelocidad = int(input("Introduce la velocidad de tu personaje (int 1-100)"))
+
+        mainCharacter =
