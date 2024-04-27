@@ -1,5 +1,3 @@
-from random import *
-
 class character:
     def __init__(self, nombre, rango, poder, tamano, velocidad):
         self.nombre = nombre
@@ -15,4 +13,4 @@ class character:
         vTamano = int(input("Introduce el tamaño de tu personaje (int 1-100)"))
         vVelocidad = int(input("Introduce la velocidad de tu personaje (int 1-100)"))
 
-        mainCharacter =
+        return character(vNombre, vRango, vPoder, vTamano, vVelocidad)
